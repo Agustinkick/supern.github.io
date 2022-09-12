@@ -21,9 +21,11 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="css/plugins/animate.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 
-<body class="wow-animate body-index">
+<body class="wow-animate body-index  fondo-section">
 
     <!-- Site preloader -->
     <section id="preloader">
@@ -41,8 +43,8 @@
                 <!-- Logo -->
                 <div class="logo">
                     <a href="index.html">
-                        <img class="logo-light" src="imagenes/logos/logo-light.png" alt="Supernova" />
-                        <img class="logo-dark" src="imagenes/logos/logo-dark.png" alt="Supernova" />
+                        <img class="logo-light" src="imagenes/logos/logo naranja.png" alt="Supernova" />
+                        <img class="logo-dark" src="imagenes/logos/logo-azul.png" alt="Supernova" />
                     </a>
                 </div>
                 <!-- End Logo -->
@@ -55,21 +57,37 @@
 
                 <!-- Navbar Navigation -->
                 <div class="nav-menu singlepage-nav">
-                    <ul class="nav-menu-inner ">
-                        <li>
-                            <a class="current" href="#intro">Home</a>
-                        </li>
-                        <li>
-                            <a href="#contact-us">Nosotros</a>
-                        </li>
-                        <li>
-                            <a href="#contact-us">Servicios</a>
-                        </li>
-                        <li>
-                            <a href="#contact-us">Clientes Supernova</a>
-                        </li>
-                    </ul>
+                    <ul class="nav-menu-inner">
 
+                        <li>
+                            <a class="external menu-has-sub">servicios </a>
+                            <ul class="sub-dropdown dropdown">
+
+
+                                <li>
+                                    <a href="#tecnologia" class="menu-has-sub"> Tecnología Integradora</a>
+
+                                </li>
+                                <li>
+                                    <a href="#estrategia" class="menu-has-sub">Estrategia Growth Mobile en un solo
+                                        lugar</a>
+
+                                </li>
+                                <li><a href="#equipo" class="menu-has-sub">Equipo de expertos y servicio
+                                        personalizado</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#about">NOSOTROS</a>
+                        </li>
+
+
+                        <li>
+                            <a href="#contact-us">Contact</a>
+                        </li>
+
+
+                    </ul>
                 </div>
                 <!-- End Navbar Navigation -->
 
@@ -78,11 +96,11 @@
         <!-- End Header -->
 
         <!--home-->
-        <section id="home" class="section-padding mid">
+        <section id="home" class="section-padding mid section-home ">
             <div class="column">
 
 
-                <div class="container col-md-6 container ">
+                <div class="container col-md-6 container animate__animated animate__bounceIn ">
                     <div class="row justify-content-center">
 
                         <p class="d-flex flex-column hero justify-content-center">
@@ -97,7 +115,7 @@
 
 
                 <div class="row justify-content-center  margen2">
-                    <a class="boton" href="" target="_blank ">CONOCE A NUESTRO EQUIPO</a>
+                    <a class="boton " href="" target="_blank ">CONOCE A NUESTRO EQUIPO</a>
                 </div>
             </div>
             <div class=" flex-column col align-self-start media">
@@ -109,8 +127,8 @@
                 </div>
                 <div class="texto-secundario">
 
-                    <div class="row margen1">
-                        <div class="d-flex row align-items-center">
+                    <div class="row margen1 ">
+                        <div class="d-flex row align-items-center growth">
                             </p>DESCUBRIR</p>
                             <div class=" line-1"></div>
                         </div>
@@ -151,13 +169,13 @@
 
 
         </section>
-        <!-- End Pricing Section --> -->
+        <!-- End Pricing Section -->
 
 
 
 
         <!-- About Section -->
-        <section id="about" class="section-padding">
+        <section id="about" class="section-padding margen-quienes  fondo-blanco">
             <div class="container text-center mb-60">
                 <h1 class=" naranja">Quienes somos</h1>
                 <p class="lead-lg max-width-700"> Somos un grupo de profesionales enfocados en brindar soluciones para
@@ -210,20 +228,30 @@
 
                     </div>
 
-                </div>
-                <h5 class="mt-3">“El éxito de un negocio móvil se basa en el crecimiento sostenible en el tiempo”.</h5>
 
-            </div>
+                </div>
+                <h5 class="mt-4">“El éxito de un negocio móvil se basa en el crecimiento sostenible en el tiempo”.</h5>
+                <div class="container mt-4">
+                    <img src="/imagenes/elementosgraficos/elementos animables/element_Mesa de trabajo 1 copia.png  "
+                        alt="cubo" class="animate__animated animate__slideInUp  col-md-3 ">
+                </div>
         </section>
         <!-- End About Section -->
 
+
+
+
+
+
+
+
+
+
         <!-- Team Section -->
-        <section id="team" class="section-padding">
+        <section id="equipo" class="section-padding fondo-blanco">
             <div class="container text-center">
-                <h1>Meet Our Team</h1>
-                <p class="lead-lg max-width-700 mb-60">Eprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                <h1>Equipo de expertos</h1>
+
             </div>
             <div class="container">
                 <div class="rows">
@@ -232,673 +260,575 @@
                     <!--Team Carousel -->
                     <div class="owl-carousel team-carousel nf-carousel-theme">
 
-                        <div class="item wow fadeInUp">
-                            <div class="team-item">
-                                <div class="team-item-img">
-                                    <img src="img/team/01.jpg" alt="" />
+                        <div class="item wow fadeInUp  d-flex flex-column ">
+                            <div class="team-item ">
+                                <div class="team-item-img row justify-content-center">
+                                    <img class="col-md-10" src="imagenes/elementosgraficos/equipo de expertos/Sin título-1_Mesa de trabajo 1 copia 2.jpg" />
                                     <div class="team-item-detail">
-                                        <div class="team-item-detail-inner light-color">
-                                            <ul class="social">
-                                                <li><a href="https://www.facebook.com/" target="_blank"><i
-                                                            class="fa fa-facebook"></i></a></li>
-                                                <li><a href="https://www.twitter.com/" target="_blank"><i
-                                                            class="fa fa-twitter"></i></a></li>
-                                                <li><a href="https://www.dribbble.com/" target="_blank"><i
-                                                            class="fa fa-dribbble"></i></a></li>
-                                                <li><a href="https://www.linkedin.com/" target="_blank"><i
-                                                            class="fa fa-linkedin"></i></a></li>
-                                            </ul>
+                                        <div class="team-item-detail">
+                                            <div class="team-item-detail-inner light-color naranja">
+                                                <ul class="social">
+                                                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="https://www.dribbble.com/" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                                                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
+                             
                                     </div>
                                 </div>
                                 <div class="team-item-info">
                                     <h5 class="alt-title">Mitchell KAPPOS</h5>
-                                    <p class="">Graphic Designer</p>
+                                    <p class=" naranja">Graphic Designer</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item wow fadeInUp" data-wow-delay="0.1s">
                             <div class="team-item">
-                                <div class="team-item-img">
-                                    <img src="img/team/02.jpg" alt="" />
+                                <div class="team-item-img row justify-content-center">
+                                    <img class="col-md-10" src="imagenes/elementosgraficos/equipo de expertos/Sin título-1_Mesa de trabajo 1 copia.jpg" />
                                     <div class="team-item-detail">
                                         <div class="team-item-detail-inner light-color">
                                             <ul class="social">
-                                                <li><a href="https://www.facebook.com/" target="_blank"><i
-                                                            class="fa fa-facebook"></i></a></li>
-                                                <li><a href="https://www.twitter.com/" target="_blank"><i
-                                                            class="fa fa-twitter"></i></a></li>
-                                                <li><a href="https://www.dribbble.com/" target="_blank"><i
-                                                            class="fa fa-dribbble"></i></a></li>
-                                                <li><a href="https://www.linkedin.com/" target="_blank"><i
-                                                            class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="https://www.dribbble.com/" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="team-item-info">
                                     <h5 class="alt-title">Leonardo da Vinci</h5>
-                                    <p class="">Front-End Dev</p>
+                                    <p class=" naranja">Front-End Dev</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="team-item">
-                                <div class="team-item-img">
-                                    <img src="img/team/03.jpg" alt="" />
+                                <div class="team-item-img row justify-content-center">
+                                    <img class="col-md-10" src="imagenes/elementosgraficos/equipo de expertos/Sin título-1_Mesa de trabajo 1.jpg "/>
                                     <div class="team-item-detail">
-                                        <div class="team-item-detail-inner light-color">
+                                        <div class="team-item-detail-inner light-color naranja">
                                             <ul class="social">
-                                                <li><a href="https://www.facebook.com/" target="_blank"><i
-                                                            class="fa fa-facebook"></i></a></li>
-                                                <li><a href="https://www.twitter.com/" target="_blank"><i
-                                                            class="fa fa-twitter"></i></a></li>
-                                                <li><a href="https://www.dribbble.com/" target="_blank"><i
-                                                            class="fa fa-dribbble"></i></a></li>
-                                                <li><a href="https://www.linkedin.com/" target="_blank"><i
-                                                            class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="https://www.dribbble.com/" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="team-item-info">
                                     <h5 class="alt-title">John Doe</h5>
-                                    <p class="">Project Manager</p>
+                                <div class="te src="<img src="imagenes/elementosgraficos/equipo de expertos/Sin título-1_Mesa de trabajo 1 copia 2.jpg"" alt="" />
+                                    <p class="naranja">Project Manager</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item">
-                            <div class="team-item">
-                                <div class="team-item-img">
-                                    <img src="img/team/04.jpg" alt="" />
-                                    <div class="team-item-detail">
-                                        <div class="team-item-detail-inner light-color">
-                                            <ul class="social">
-                                                <li><a href="https://www.facebook.com/" target="_blank"><i
-                                                            class="fa fa-facebook"></i></a></li>
-                                                <li><a href="https://www.twitter.com/" target="_blank"><i
-                                                            class="fa fa-twitter"></i></a></li>
-                                                <li><a href="https://www.dribbble.com/" target="_blank"><i
-                                                            class="fa fa-dribbble"></i></a></li>
-                                                <li><a href="https://www.linkedin.com/" target="_blank"><i
-                                                            class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-item-info">
-                                    <h5 class="alt-title">Michael Lee</h5>
-                                    <p>Web Developer</p>
-                                </div>
                             </div>
                         </div>
-
-                        <div class="item">
-                            <div class="team-item">
-                                <div class="team-item-img">
-                                    <img src="img/team/05.jpg" alt="" />
-                                    <div class="team-item-detail">
-                                        <div class="team-item-detail-inner light-color">
-                                            <ul class="social">
-                                                <li><a href="https://www.facebook.com/" target="_blank"><i
-                                                            class="fa fa-facebook"></i></a></li>
-                                                <li><a href="https://www.twitter.com/" target="_blank"><i
-                                                            class="fa fa-twitter"></i></a></li>
-                                                <li><a href="https://www.dribbble.com/" target="_blank"><i
-                                                            class="fa fa-dribbble"></i></a></li>
-                                                <li><a href="https://www.linkedin.com/" target="_blank"><i
-                                                            class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-item-info">
-                                    <h5 class="alt-title">Mitchell KAPPOS</h5>
-                                    <p class="">Graphic Designer</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="team-item">
-                                <div class="team-item-img">
-                                    <img src="img/team/06.jpg" alt="" />
-                                    <div class="team-item-detail">
-                                        <div class="team-item-detail-inner light-color">
-                                            <ul class="social">
-                                                <li><a href="https://www.facebook.com/" target="_blank"><i
-                                                            class="fa fa-facebook"></i></a></li>
-                                                <li><a href="https://www.twitter.com/" target="_blank"><i
-                                                            class="fa fa-twitter"></i></a></li>
-                                                <li><a href="https://www.dribbble.com/" target="_blank"><i
-                                                            class="fa fa-dribbble"></i></a></li>
-                                                <li><a href="https://www.linkedin.com/" target="_blank"><i
-                                                            class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-item-info">
-                                    <h5 class="alt-title">Leonardo da Vinci</h5>
-                                    <p class="">Front-End Dev</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <!--End Team Carousel --->
-
-                </div>
-            </div>
-        </section>
-        <!-- End Team Section -->
-
-        <hr />
-
-        <!-- Features Section -->
-        <section id="features" class="section-padding fondoazul">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 mb-sm-30  ">
-                        <h1 class=" title-servicio naranja">Tecnología Integradora</h1>
-                        <p class="naranja">Acceso a las mejores tecnologías del mundo y grandes plataformas de
-                            programmatic y SDK.</p>
-                        <p class="naranja">Todos los formatos (Video, Banner, Display, InApp, Video-Rewarded, OEM).</p>
-                        <p class="naranja">Optimización cross-channel</p>
-                        <p class="large blanco">
-
-                            Desarrollamos consultorías expertas personalizadas sobre cómo escalar más rápido los canales
-                            programáticos y plataformas SDK para potenciar el alcance requerido.
-                            Te alcanzamos las mejores funciones y todos los formatos disponibles para diversificar y
-                            optimizar la estrategia digital, con el objetivo de llegar a los usuarios de una forma más
-                            eficiente.
-                        </p>
-
-                    </div>
-
-                    <div class="col-md-7 text-right wow fadeInUp">
-                        <img src="imagenes/1.avif" style="max-width: 580px; width: 100%;" alt="" class="col-md-10"/>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <section id="features" class="section-padding ">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 mb-sm-30  ">
-                        <h1 class=" title-servicio naranja">Estrategia Growth Mobile en un solo lugar.</h1>
-                        <p class="naranja">Distintos modelos de compra (CPM, CPC, CPI o CPA).</p>
-                        <p class="naranja">Client Service.</p>
-
-                        <p class="large ">
-                            En SUPERNOVA empoderamos a nuestros clientes, definiendo una estrategia de crecimiento en
-                            base a los objetivos concretos de negocio, con el trabajo de nuestro equipo de expertos y de
-                            Client service, planteando insights del mercado y realizando reportes personalizados post
-                            campañas
-                        </p>
-
-                    </div>
-
-                    <div class="col-md-7 text-right wow fadeInUp">
-                        <img src="imagenes/teamwork.avif"max-width: 580px; width: 100%; alt=""  class="col-md-10"/>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-
-        <!-- Testimonials Section -->
-        <section id="testimonials" class="section-padding bg-image dark-bg pos-section overlay-dark"
-            data-stellar-background-ratio="0.4" data-background-img="img/full/15.jpg">
-            <!-- page triangle shape -->
-            <div class="page-triangle white-bg"></div>
-            <!-- End page triangle shape -->
-            <div class="container">
-                <div class="owl-carousel testimonial-carousel nf-carousel-theme white">
-                    <div class="item">
-                        <div class="testimonial text-center max-width-700">
-                            <div class="page-icon-sm"><i class="icon-quote"></i></div>
-                            <h2>What People Say?</h2>
-                            <p class="lead-lg">I got a dummy for Christmas and started teaching myself. I got books and
-                                records and sat in front of the practising.</p>
-                            <h6 class="quote-author alt-title">Jeff Dunham <span class="text-regular">( Appel Studio
-                                    )</span></h6>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimonial text-center max-width-700">
-                            <div class="page-icon-sm"><i class="icon-quote"></i></div>
-                            <h2>What People Say?</h2>
-                            <p class="lead-lg">you can never eat a pet you name. And anyway, I did my first show in the
-                                third grade it would be like a ventriloquist.</p>
-                            <h6 class="quote-author alt-title">Alexander Theroux <span class="text-regular">( USA
-                                    )</span>
-                            </h6>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimonial text-center max-width-700">
-                            <div class="page-icon-sm"><i class="icon-quote"></i></div>
-                            <h2>What People Say?</h2>
-                            <p class="lead-lg">We're not leaving here without Buster, man. Leave no crash-test dummy
-                                Text
-                                all the Rotate Simply behind!</p>
-                            <h6 class="quote-author alt-title">Adam Savage <span class="text-regular">( Artist )</span>
-                            </h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Testimonials Section -->
-
-
-
-
-
-        <!-- Client Logo Section -->
-        <section id="social_section" class="section-padding bg-image dark-bg pos-section overlay-dark"
-            data-stellar-background-ratio="0.4" data-background-img="img/full/13.jpg">
-
-            <!-- page triangle shape -->
-            <div class="page-triangle white-bg"></div>
-            <!-- End page triangle shape -->
-
-            <div class="container text-center">
-                <h2 class="mb-60">Trusted Consumers</h2>
-
-                <div class="owl-carousel client-carousel">
-                    <div class="item">
-                        <div class="client-logo">
-                            <a href="#">
-                                <img src="img/logos/01.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-logo">
-                            <a href="#">
-                                <img src="img/logos/02.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-logo">
-                            <a href="#">
-                                <img src="img/logos/03.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-logo">
-                            <a href="#">
-                                <img src="img/logos/04.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-logo">
-                            <a href="#">
-                                <img src="img/logos/05.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-logo">
-                            <a href="#">
-                                <img src="img/logos/06.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-logo">
-                            <a href="#">
-                                <img src="img/logos/08.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-logo">
-                            <a href="#">
-                                <img src="img/logos/09.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-logo">
-                            <a href="#">
-                                <img src="img/logos/02.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-logo">
-                            <a href="#">
-                                <img src="img/logos/03.png" alt="" /></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!-- End Client Logo Section -->
-
-        <!-- Blog Section -->
-        <section id="blog" class="section-padding">
-            <div class="container">
-
-                <h1 class="mb-60 text-center">Our Latest News</h1>
-
-                <div class="row">
-
-                    <div class="col-md-4 col-sm-6 mb-sm-30 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s">
-                        <!-- Post -->
-                        <div class="blog-post">
-                            <div class="post-media">
-                                <img src="img/blog/01.jpg" alt="blog" />
-                            </div>
-                            <div class="post-meta">
-                                <span>by <a>John Doe</a>,</span>
-                                <span class="post-date">06 Jan 2016</span>
-                            </div>
-                            <div class="post-header">
-                                <h4 class="alt-title"><a href="">We denounce with righteous the indignation and
-                                        dislike</a>
-                                </h4>
-                            </div>
-                            <div class="post-tag">
-                                <span><a href="#">Branding</a></span>
-                                <span><a href="#">Design</a></span>
-                            </div>
-                        </div>
-                        <!-- End Post -->
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 mb-sm-30 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
-                        <!-- Post -->
-                        <div class="blog-post">
-                            <div class="post-media">
-                                <img src="img/blog/02.jpg" alt="blog" />
-                            </div>
-                            <div class="post-meta">
-                                <span>by <a>John Doe</a>,</span>
-                                <span class="post-date">04 Jan 2016</span>
-                            </div>
-                            <div class="post-header">
-                                <h4 class="alt-title"><a href="">that they cannot foresee the pain and trouble that are
-                                        bound</a></h4>
-                            </div>
-                            <div class="post-tag">
-                                <span><a href="#">Branding</a></span>
-                                <span><a href="#">Photography</a></span>
-                            </div>
-                        </div>
-                        <!-- End Post -->
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 mb-sm-30 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s">
-                        <!-- Post -->
-                        <div class="blog-post">
-                            <div class="post-media">
-                                <img src="img/blog/03.jpg" alt="blog" />
-                            </div>
-                            <div class="post-meta">
-                                <span>by <a>John Doe</a>,</span>
-                                <span class="post-date">01 Jan 2016</span>
-                            </div>
-                            <div class="post-header">
-                                <h4 class="alt-title"><a href="">which is the same as saying from through shrinking
-                                        toil...</a></h4>
-                            </div>
-                            <div class="post-tag">
-                                <span><a href="#">Branding</a></span>
-                                <span><a href="#">Image</a></span>
-                            </div>
-                        </div>
-                        <!-- End Post -->
-                    </div>
-
-                </div>
-
-                <div class="rows text-center mt-60">
-                    <a href="#" class="link">View All Blog <i class="fa fa-angle-right right"></i></a>
-                </div>
-
-            </div>
-        </section>
-        <!-- End Blog Section -->
-
-        <!-- Newsletter Section -->
-        <section id="newsletter" class="section-padding gray-bg pos-section">
-            <!-- page triangle shape -->
-            <div class="page-triangle white-bg"></div>
-            <!-- End page triangle shape -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 offset-md-2 text-center">
-                        <form id="subscribe-form" role="form" action="subscribe.php" method="post"
-                            novalidate="novalidate">
-                            <h2 class="mb-30 azul">Subscribete a nuestra Newsletter</h2>
-                            <div class="form-field-wrapper">
-                                <input type="text" class="newsletter-input input-lg mb-15 subscribe-form-control"
-                                    placeholder="Name" name="subscribe-name" id="subscribe-name" />
-                                <input type="email"
-                                    class="newsletter-input input-lg form-full mb-15 subscribe-form-control required"
-                                    placeholder="Email" name="subscribe-email" id="subscribe-email"
-                                    aria-required="true" />
-                                <button type="submit" class="btn  mb-15 boton2">Subscribirse</button>
-                            </div>
-
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Newsletter Section -->
-
-        <!-- Contact Form Section -->
-        <section id="contact-us" class="section-padding">
-            <div class="container text-center">
-                <p class="Servicios">Contacto</p>
-                <p class="lead-lg max-width-700 mb-60">No dudes en contactarnos</p>
-
-
-                <div class="container icons">
-
-                    <a href="">
-                        <i><svg class="icono" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7ZM9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12Z"
-                                    fill="currentColor" />
-                                <path
-                                    d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
-                                    fill="currentColor" />
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M5 1C2.79086 1 1 2.79086 1 5V19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5ZM19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
-                                    fill="currentColor" />
-                            </svg>
-                        </i>
-                    </a>
-                    <a href="">
-                        <i>
-                            <svg class="icono" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M9.19795 21.5H13.198V13.4901H16.8021L17.198 9.50977H13.198V7.5C13.198 6.94772 13.6457 6.5 14.198 6.5H17.198V2.5H14.198C11.4365 2.5 9.19795 4.73858 9.19795 7.5V9.50977H7.19795L6.80206 13.4901H9.19795V21.5Z"
-                                    fill="currentColor" />
-                            </svg>
-                        </i>
-                    </a>
-
-                    <a href="">
-                        <i>
-                            <svg class="icono" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M5 7H19C19.5523 7 20 7.44771 20 8V16C20 16.5523 19.5523 17 19 17H5C4.44772 17 4 16.5523 4 16V8C4 7.44772 4.44772 7 5 7ZM2 8C2 6.34315 3.34315 5 5 5H19C20.6569 5 22 6.34315 22 8V16C22 17.6569 20.6569 19 19 19H5C3.34315 19 2 17.6569 2 16V8ZM10 9L14 12L10 15V9Z"
-                                    fill="currentColor" />
-                            </svg>
-
-
-                        </i>
-                    </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <!-- Contact form -->
-                <div class="row">
-                    <div class="col-md-8 offset-md-2">
-                        <form id="contact" class="contact-form row" role="form">
-                            <div class="col-md-12 text-center">
-                                <h5 class="successContent">
-                                    <i class="fa fa-check left" style="color: #5cb45d;"></i>Your message has been sent
-                                    successfully.
-                                </h5>
-                                <h5 class="errorContent" style="color: #e1534f;">
-                                    <i class="fa fa-exclamation-circle left"></i>There was a problem validating the form
-                                    please check!
-                                </h5>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="form-field-wrapper">
-                                    <input class="input-lg form-full input-fancy" id="form-name" type="text"
-                                        name="form-name" placeholder="Your Name" required />
-                                </div>
-
-
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-field-wrapper">
-                                    <input class="input-lg form-full input-fancy" id="form-email" type="email"
-                                        name="form-email" placeholder="Email" required />
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-field-wrapper">
-                                    <input class="input-lg form-full input-fancy" id="form-subject" type="text"
-                                        name="form-subject" placeholder="Subject" />
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-field-wrapper">
-                                    <textarea class="home-contact-txt-msg input-lg form-full input-fancy"
-                                        id="form-message" rows="7" name="form-message" placeholder="Your Message"
-                                        required></textarea>
-                                </div>
-
-                            </div>
-                            <div class="col-md-12">
-                                <button class="btn-contact-submit btn btn-lg btn-black" type="submit" id="form-submit"
-                                    name="submit">Send Message</button>
-                            </div>
-
-                        </form>
-                    </div>
-                </div>
-                <!-- End Contact form -->
-
-            </div>
-        </section>
-        <!-- End Contact Form Section -->
-
-        <!-- Contact Infobar Section -->
-        <section class="ptb-60 black-bg text-center dark-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 mb-sm-30">
-                        <div class="contact-info">
-                            <div class="alt-icon-top alt-icon-color">
-                                <i class="icon-phone"></i>
-                            </div>
-                            <p class="large">+40 (0) 012 345 6789</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mb-sm-30">
-                        <div class="contact-info">
-                            <div class="alt-icon-top alt-icon-color">
-                                <i class="icon-map-pin"></i>
-                            </div>
-                            <p class="large">
-                                250 South Street Baldwin,<br>
-                                NY 11510
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mb-sm-30">
-                        <div class="contact-info">
-                            <div class="alt-icon-top alt-icon-color">
-                                <i class="icon-envelope"></i>
-                            </div>
-                            <p class="large">yourname@domain.com</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Contact Infobar Section -->
-
-        <!-- Map section -->
-        <section id="map" class="map"></section>
-        <!-- End Map section -->
-
-        <!-- Footer Section -->
-        <footer id="footer" class="footer gray-bg">
-            <div class="container text-center">
-                <ul class="social mb-60 wow fadeInUp" data-wow-duration="1.5s">
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a>
-                    </li>
-                </ul>
-                <p class="copyright">
-                    <a class="copy-link scroll-top" href="">&copy; Apollo 2016</a><br />
-                    All Rights Reserved, Template by <a target="_blank"
-                        href="http://nileforest.com/"><b>nileforest</b></a>
-                </p>
-            </div>
-        </footer>
-        <!-- End Footer Section -->
+    <!--End Team Carousel --->
 
     </div>
+    </div>
+    </section>
+    <!-- End Team Section -->
+
+    <hr />
+
+    <!-- Features Section -->
+    <section id="tecnologia" class="section-padding fondoazul textos-teconologia">
+
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-5 mb-sm-30  ">
+                    <h1 class=" title-servicio naranja "> Tecnología Integradora</h1>
+                    <p class="naranja">Acceso a las mejores tecnologías del mundo y grandes plataformas de
+                        programmatic y SDK.</p>
+                    <p class="naranja">Todos los formatos (Video, Banner, Display, InApp, Video-Rewarded, OEM).</p>
+                    <p class="naranja">Optimización cross-channel</p>
+                    <p class="large blanco">
+
+                        Desarrollamos consultorías expertas personalizadas sobre cómo escalar más rápido los canales
+                        programáticos y plataformas SDK para potenciar el alcance requerido.
+                        Te alcanzamos las mejores funciones y todos los formatos disponibles para diversificar y
+                        optimizar la estrategia digital, con el objetivo de llegar a los usuarios de una forma más
+                        eficiente.
+                    </p>
+
+                </div>
+
+                <div class="col-md-7 text-right wow fadeInUp">
+                    <img src="imagenes/growth-tecno/tecnologia.jpg" style="max-width: 580px; width: 100%;" alt="equipo"
+                        class="col-md-10 " />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="estrategia" class="section-padding textos-teconologia  fondo-blanco">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mb-sm-30">
+                    <h1 class=" title-servicio naranja">Estrategia Growth Mobile en un solo lugar.</h1>
+                    <p class="naranja">Distintos modelos de compra (CPM, CPC, CPI o CPA).</p>
+                    <p class="naranja">Client Service.</p>
+
+                    <p class="large">
+                        En SUPERNOVA empoderamos a nuestros clientes, definiendo una estrategia de crecimiento en
+                        base a los objetivos concretos de negocio, con el trabajo de nuestro equipo de expertos y de
+                        Client service, planteando insights del mercado y realizando reportes personalizados post
+                        campañas
+                    </p>
+
+                </div>
+                
+
+                <div class="col-md-7 text-right wow fadeInUp">
+                    <img src="imagenes/growth-tecno/mobilesdks.png" max-width: 580px; width: 100%; alt="teamwork" class="col-md-10 " />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding fondoazul dark-bg pos-section "
+        data-stellar-background-ratio="0.4" data-background-img="img/full/15.jpg">
+        <!-- page triangle shape -->
+        <div class="page-triangle white-bg"></div>
+        <!-- End page triangle shape -->
+        <div class="container">
+
+            <div class="container fondoazul">
+
+
+                <div class="container fondozul">
+                    <div class="owl-carousel testimonial-carousel nf-carousel-theme white fondoazul">
+                        <div class="item">
+                            <div class="testimonial text-center max-width-700 ">
+                                <img src="./imagenes/elementosgraficos/elementos animables/element_Mesa de trabajo 1 copia.png"
+                                    alt="piramide" class=" col-md-2">
+                                <h2>¿Qué opinan nuestros clientes?</h2>
+                                <p class="lead-lg">I got a dummy for Christmas and started teaching myself. I got books
+                                    and
+                                    records and sat in front of the practising.</p>
+                                <h6 class="quote-author alt-title">Jeff Dunham <span class="text-regular naranja">(
+                                        Appel Studio
+                                        )</span></h6>
+                            </div>
+                        </div>
+
+                        <div class="container ">
+                            <div class="owl-carousel testimonial-carousel nf-carousel-theme white ">
+                                <div class="item">
+                                    <div class="testimonial text-center max-width-700">
+                                        <img src="./imagenes/elementosgraficos/elementos animables/element_Mesa de trabajo 1 copia.png"
+                                            alt="piramide" class=" col-md-2">
+                                        <h2>¿Qué opinan nuestros clientes?</h2>
+                                        <p class="lead-lg">I got a dummy for Christmas and started teaching myself. I
+                                            got books and
+                                            records and sat in front of the practising.</p>
+                                        <h6 class="quote-author alt-title">Jeff Dunham <span
+                                                class="text-regular naranja">( Appel
+                                                Studio
+                                                )</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+
+
+
+
+    <!-- Client Logo Section -->
+    <section id="social_section" class="section-padding b-naranja  pos-section" data-stellar-background-ratio="0.4"
+        data-background-img="img/full/13.jpg">
+
+        <!-- page triangle shape -->
+        <div class="page-triangle white-bg"></div>
+        <!-- End page triangle shape -->
+
+        <div class="container text-center">
+            <h2 class="mb-60">Confian en nosotros</h2>
+
+            <div class="owl-carousel client-carousel">
+                <div class="item">
+                    <div class="client-logo">
+                        <a href="#">
+                            <img src="img/logos/01.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="client-logo">
+                        <a href="#">
+                            <img src="img/logos/02.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="client-logo">
+                        <a href="#">
+                            <img src="img/logos/03.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="client-logo">
+                        <a href="#">
+                            <img src="img/logos/04.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="client-logo">
+                        <a href="#">
+                            <img src="img/logos/05.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="client-logo">
+                        <a href="#">
+                            <img src="img/logos/06.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="client-logo">
+                        <a href="#">
+                            <img src="img/logos/08.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="client-logo">
+                        <a href="#">
+                            <img src="img/logos/09.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="client-logo">
+                        <a href="#">
+                            <img src="img/logos/02.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="client-logo">
+                        <a href="#">
+                            <img src="img/logos/03.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Client Logo Section -->
+
+    <!-- Blog Section 
+    <section id="blog" class="section-padding">
+        <div class="container">
+
+            <h1 class="mb-60 text-center">Our Latest News</h1>
+
+            <div class="row">
+
+                <div class="col-md-4 col-sm-6 mb-sm-30 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s">
+                    <!-- Post 
+                    <div class="blog-post">
+                        <div class="post-media">
+                            <img src="img/blog/01.jpg" alt="blog" />
+                        </div>
+                        <div class="post-meta">
+                            <span>by <a>John Doe</a>,</span>
+                            <span class="post-date">06 Jan 2016</span>
+                        </div>
+                        <div class="post-header">
+                            <h4 class="alt-title"><a href="">We denounce with righteous the indignation and
+                                    dislike</a>
+                            </h4>
+                        </div>
+                        <div class="post-tag">
+                            <span><a href="#">Branding</a></span>
+                            <span><a href="#">Design</a></span>
+                        </div>
+                    </div>
+                    <!-- End Post
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-sm-30 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+                    <!-- Post
+                    <div class="blog-post">
+                        <div class="post-media">
+                            <img src="img/blog/02.jpg" alt="blog" />
+                        </div>
+                        <div class="post-meta">
+                            <span>by <a>John Doe</a>,</span>
+                            <span class="post-date">04 Jan 2016</span>
+                        </div>
+                        <div class="post-header">
+                            <h4 class="alt-title"><a href="">that they cannot foresee the pain and trouble that are
+                                    bound</a></h4>
+                        </div>
+                        <div class="post-tag">
+                            <span><a href="#">Branding</a></span>
+                            <span><a href="#">Photography</a></span>
+                        </div>
+                    </div>
+                    <!-- End Post 
+
+                <div class="col-md-4 col-sm-6 mb-sm-30 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s">
+                    <!-- Post 
+                    <div class="blog-post">
+                        <div class="post-media">
+                            <img src="img/blog/03.jpg" alt="blog" />
+                        </div>
+                        <div class="post-meta">
+                            <span>by <a>John Doe</a>,</span>
+                            <span class="post-date">01 Jan 2016</span>
+                        </div>
+                        <div class="post-header">
+                            <h4 class="alt-title"><a href="">which is the same as saying from through shrinking
+                                    toil...</a></h4>
+                        </div>
+                        <div class="post-tag">
+                            <span><a href="#">Branding</a></span>
+                            <span><a href="#">Image</a></span>
+                        </div>
+                    </div>
+                    <!-- End Post 
+                </div>
+
+            </div>
+
+            <div class="rows text-center mt-60">
+                <a href="#" class="link">View All Blog <i class="fa fa-angle-right right"></i></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Blog Section -->
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="section-padding gray-bg pos-section">
+        <!-- page triangle shape -->
+        <div class="page-triangle white-bg"></div>
+        <!-- End page triangle shape -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <form id="subscribe-form" role="form" action="subscribe.php" method="post" novalidate="novalidate">
+                        <h2 class="mb-30 azul">Subscribete a nuestra Newsletter</h2>
+                        <div class="form-field-wrapper">
+                            <input type="text" class="newsletter-input input-lg mb-15 subscribe-form-control"
+                                placeholder="Nombre" name="subscribe-name" id="subscribe-name" />
+                            <input type="email"
+                                class="newsletter-input input-lg form-full mb-15 subscribe-form-control required"
+                                placeholder="Email" name="subscribe-email" id="subscribe-email" aria-required="true" />
+                            <button type="submit" class="btn  mb-15 boton2">Subscribirse</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Newsletter Section -->
+
+    <!-- Contact Form Section -->
+    <section id="contact-us" class="section-padding">
+        <div class="container text-center">
+            <p class="Servicios">Contacto</p>
+            <p class="lead-lg max-width-700 mb-60">No dudes en contactarnos</p>
+
+
+            <div class="container icons">
+
+                <a href="">
+                    <i><svg class="icono" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7ZM9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12Z"
+                                fill="currentColor" />
+                            <path
+                                d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                                fill="currentColor" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5 1C2.79086 1 1 2.79086 1 5V19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5ZM19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
+                                fill="currentColor" />
+                        </svg>
+                    </i>
+                </a>
+                <a href="">
+                    <i>
+                        <svg class="icono" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.19795 21.5H13.198V13.4901H16.8021L17.198 9.50977H13.198V7.5C13.198 6.94772 13.6457 6.5 14.198 6.5H17.198V2.5H14.198C11.4365 2.5 9.19795 4.73858 9.19795 7.5V9.50977H7.19795L6.80206 13.4901H9.19795V21.5Z"
+                                fill="currentColor" />
+                        </svg>
+                    </i>
+                </a>
+
+                <a href="">
+                    <i>
+                        <svg class="icono" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5 7H19C19.5523 7 20 7.44771 20 8V16C20 16.5523 19.5523 17 19 17H5C4.44772 17 4 16.5523 4 16V8C4 7.44772 4.44772 7 5 7ZM2 8C2 6.34315 3.34315 5 5 5H19C20.6569 5 22 6.34315 22 8V16C22 17.6569 20.6569 19 19 19H5C3.34315 19 2 17.6569 2 16V8ZM10 9L14 12L10 15V9Z"
+                                fill="currentColor" />
+                        </svg>
+
+
+                    </i>
+                </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Contact form -->
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <form id="contact" class="contact-form row" role="form">
+                        <div class="col-md-12 text-center">
+                            <h5 class="successContent">
+                                <i class="fa fa-check left" style="color: #5cb45d;"></i> Su mensaje se ah sido enviado.
+                            </h5>
+                            <h5 class="errorContent" style="color: #e1534f;">
+                                Ups! Hubo un problema con el envio.
+                            </h5>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-field-wrapper">
+                                <input class="input-lg form-full input-fancy" id="form-name" type="text"
+                                    name="form-name" placeholder="su nombre" required />
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-field-wrapper">
+                                <input class="input-lg form-full input-fancy" id="form-email" type="email"
+                                    name="form-email" placeholder="Email" required />
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-field-wrapper">
+                                <input class="input-lg form-full input-fancy" id="form-subject" type="text"
+                                    name="form-subject" placeholder="Tema" />
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-field-wrapper">
+                                <textarea class="home-contact-txt-msg input-lg form-full input-fancy" id="form-message"
+                                    rows="7" name="form-message" placeholder="Su mensaje" required></textarea>
+                            </div>
+
+                        </div>
+                        <div class="col-md-12">
+                            <button class="btn-contact-submit boton2" type="submit" id="form-submit"
+                                name="submit">Enviar mensaje</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <!-- End Contact form -->
+
+        </div>
+    </section>
+    <!-- End Contact Form Section -->
+
+    <!-- Contact Infobar Section 
+    <section class="ptb-60 black-bg text-center dark-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-sm-30">
+                    <div class="contact-info">
+                        <div class="alt-icon-top alt-icon-color">
+                            <i class="icon-phone"></i>
+                        </div>
+                        <p class="large">+40 (0) 012 345 6789</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-sm-30">
+                    <div class="contact-info">
+                        <div class="alt-icon-top alt-icon-color">
+                            <i class="icon-map-pin"></i>
+                        </div>
+                        <p class="large">
+                            250 South Street Baldwin,<br>
+                            NY 11510
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-sm-30">
+                    <div class="contact-info">
+                        <div class="alt-icon-top alt-icon-color">
+                            <i class="icon-envelope"></i>
+                        </div>
+                        <p class="large">yourname@domain.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Infobar Section -->
+
+    <!-- Map section
+    <section id="map" class="map"></section>
+    <!-- End Map section -->
+
+    <!-- Footer Section 
+    <footer id="footer" class="footer gray-bg">
+
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <footer class="footer">
+
+        <p class="row d-flex justify-content-center elemetos-footer"> SUPERNOVA © 2022 - Todos los derechos reservados
+        </p>
+
+
+    </footer>
     <!-- End Page Wraper -->
 
 
