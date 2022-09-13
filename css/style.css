@@ -393,6 +393,7 @@ a
 #page-wraper {
     position: relative;
     width: 100%;
+    overflow: hidden;
 }
 
 .black-bg {
@@ -434,6 +435,23 @@ a
 .blanco {
     color: white;
 }
+
+#home{ position: relative;}
+
+
+.circulo{position: absolute;
+left: 1000px;
+bottom: 200px;}
+.cubo{position: absolute;
+top:400px;}
+.triangulo{position: absolute;
+bottom: 300px;
+right: 250px;}
+.estrellas{position: absolute;}
+.circulos{position: absolute;}
+
+
+
 
 
 /*DISEÑO */
@@ -586,8 +604,9 @@ a
     /*margin-bottom: 20px;*/
 
 .page-triangle::before {
-    background-color: inherit;
+    background-color: blue;
     top: -100px;
+    visibility: hidden;
 }
 
 .page-triangle::before {
@@ -3980,7 +3999,7 @@ ia .counter-sub-title {
 
 .pagination-nav ul li a:hover {
     border: 1px solid #222;
-    color: #222;
+    color: rgb(200, 79, 79);
 }
 
 .pagination-nav .prev {
@@ -4197,7 +4216,7 @@ form .error {
     text-transform: uppercase;
     font-size: 12px;
 }
-
+.color{color: white;}
 
 
 /*==========================================================================================================*/
